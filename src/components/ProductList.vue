@@ -54,14 +54,14 @@ export default {
       var delay = el.dataset.index * 100;
       setTimeout(function () {
         el.className =
-          "row d-flex mb-3 align-items-center animated fadeInRight";
+          "row d-flex mb-3 align-items-center animate__animated animate__fadeInRight";
       }, delay);
     },
     leave: function (el) {
       var delay = el.dataset.index * 100;
       setTimeout(function () {
         el.className =
-          "row d-flex mb-3 align-items-center animated fadeOutRight";
+          "row d-flex mb-3 align-items-center animate__animated animate__fadeOutRight";
       }, delay);
     },
   },
